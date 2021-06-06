@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-size: normal;
+}
+.backround{
+	width: 100%;
+	height: 125%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+
+.ak{
+	
+	height: auto;
+	position: absolute;
+	top: 60%;
+	left: 0%;
+}
+.ak a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active,   .ak a:hover{
+	background-color: white;
+	color: black;
+	width: 70%;
+}
+
+.a{
+	width: 60%;
+}
+
+.b{
+	width: 65%;
+}
+.c{
+	width: 59%;
+}
+.d{
+	width: 55%;
+}
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+.home h1{
+	font-size: 50px;
+	padding-right: 80px;
+	border-bottom: 1px solid white;
+}
+.home h3{
+	font-size: 28px;
+	padding: 5px 0;
+	opacity: 0.6;
+
+}
+.backround2{
+	
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav{
+	
+	height: auto;
+	position: absolute;
+	top: 10%;
+	right: 0%;
+}
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 10px 0;
+	float: right;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active,   .nav a:hover{
+	background-color: white;
+	color: black;
+	width: 70%;
+}
+
+.e{
+
+	width: 60%;
+}
+
+.f{
+	width: 65%;
+}
+.g{
+	width: 59%;
+}
+.h{
+	width: 55%;
+}
+.as{
+	font-size: 28px;
+	text-align: center;
+	text-decoration: bold;
+	font-family: elephant;
+	font-weight: bold;
+	font-weight: underline;
+}
+.bk{
+	background-image: url(../Images/dv.jpg);
+	
+}

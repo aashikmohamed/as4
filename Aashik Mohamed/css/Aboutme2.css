@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #fff;
+	line-height: 1.5;
+	letter-spacing: 1px;
+
+}
+.wrapper{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url('../Images/dv.jpg');
+	background-position: center;
+	position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.testimonial{
+	padding: 30px 100px;
+}
+article h1{
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase; 
+	letter-spacing: 1.5px;
+}
+article h1:after{
+	content: "";
+	height: 5px;
+	width: 225px;
+	background-color: white;
+	display: block;
+	margin: auto;
+
+}
+article img{
+	height: 200px;
+	width: 200px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-top: 60px;
+
+}
+blockquote{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+article{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 30px;
+	letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
